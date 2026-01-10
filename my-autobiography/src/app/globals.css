@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  /* This links the fonts we imported in layout.tsx to Tailwind names */
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  --font-calligraphy: var(--font-calligraphy);
+
+  /* Our Custom "Autobiography" Palette */
+  --color-paper: #F5F5F3;
+  --color-charcoal: #1A1A1A;
+  --color-sage: #2D3A3A;
+  --color-university: #1A2238; /* Navy for Uni */
+}
+
+:root {
+  --background: var(--color-paper);
+  --foreground: var(--color-charcoal);
+}
+
+/* Remove the dark mode media query for now so we have total control 
+   over the section colors manually */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-paper);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-charcoal);
+  border-radius: 10px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  transition: background-color 0.8s ease; /* Smooth color shifting */
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+}
