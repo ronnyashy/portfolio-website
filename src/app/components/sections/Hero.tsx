@@ -26,7 +26,7 @@ export default function Hero() {
           <img 
             src="/mugshot.jpg" 
             alt="Aaron Amarh Ashitey"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             style={{ objectPosition: 'center 25%' }} 
           />
           {/* Subtle overlay to ensure text readability */}

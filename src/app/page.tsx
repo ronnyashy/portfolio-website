@@ -23,7 +23,7 @@ export default function Home() {
           <div className="col-span-12 md:col-span-4 flex flex-col justify-between">
             <FadeIn>
               <h2 className="text-sm uppercase tracking-[0.4em] mb-12 opacity-40 italic font-sans text-paper">
-                01 / The Preface
+                01 / The Story
               </h2>
             </FadeIn>
             <div className="hidden md:block w-px h-32 bg-stone-700 ml-1 mb-8" />
@@ -76,10 +76,6 @@ export default function Home() {
         <Leadership />
       </div>
 
-      {/* 04. CHAPTER THREE: IMPACT (Volunteer) */}
-      <div id="volunteer">
-        <Volunteer />
-      </div>
 
       {/* 05. THE MAIN EVENT (Horizontal Archive) */}
       <div id="projects">
