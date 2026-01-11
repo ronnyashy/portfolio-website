@@ -1,7 +1,6 @@
 import Hero from "./components/sections/Hero";
 import Education from "./components/sections/Education";
 import Leadership from "./components/sections/Leadership";
-import Volunteer from "./components/sections/Volunteer";
 import FadeIn from "./components/FadeIn";
 import Projects from "./components/sections/Projects";
 import Entrepreneurship from "./components/sections/Entrepreneurship";
